@@ -232,3 +232,21 @@ label.no-block { color: #333; display: inline; font-weight: normal; margin: 0; p
 	.form-devise h2 {margin-bottom: 20px;}
 	.form-devise p { margin: 4px 0px; }
 	.form-devise p input[type="submit"] { margin: 16px 0px; }
+
+@media screen and (max-width: 960px){
+    body {
+      min-width: 320px;
+      max-width: 320px;
+      margin: 0 auto;
+    }
+    .container {
+      width: 100%;
+    }
+    .section {
+      margin: 0;
+    }
+    .container .section { margin-bottom: 10px; }
+    .container .push_7 {
+      left: 0;
+    }
+}
